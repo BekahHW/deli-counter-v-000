@@ -1,8 +1,9 @@
 katz_deli = []
 number_in_line= ("#{katz_deli.length} + 1")
-katz_deli_with_num = katz_deli.each_with_index.map { |x,i| [i+1, ", ", x]}
+
 
 def line(katz_deli)
+  katz_deli_with_num = katz_deli.each_with_index.map { |x,i| [i+1, ", ", x]}
   if katz_deli.length == 0
     puts "The line is currently empty."
   else 
