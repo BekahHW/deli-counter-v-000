@@ -5,9 +5,11 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else 
-    puts "The line is currently: #{katz_deli.join(",").each_with_index.map { |x,i| [i+1, ". ", x]}}."
+    puts "The line is currently: #{katz_deli.join(", ") {|x,i| [i+1, ", ", x]}}."
   end
 end
+
+#{katz_deli.each_with_index.map { |x,i| [i+1, ", ", x]}}."
 
 # a.each_index {|x| print x, " -- " }
 
