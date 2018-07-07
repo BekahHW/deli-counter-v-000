@@ -5,11 +5,11 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else 
-    puts "The line is currently: #{katz_deli.join(", ")}."
+    puts "The line is currently: #{katz_deli.each_with_index.map { |x,i| [x, i+1]}}."
   end
 end
 
-[index + 1]
+# [index + 1]
 # katz_deli.map do (incrementing number + |person|)
 
 
