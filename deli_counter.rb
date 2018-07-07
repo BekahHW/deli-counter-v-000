@@ -1,15 +1,16 @@
 katz_deli = []
 number_in_line= ("#{katz_deli.length} + 1")
+katz_deli_with_num = {katz_deli.each_with_index.map { |x,i| [i+1, ", ", x]}}
 
 def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else 
-    puts "The line is currently: #{katz_deli.join(", ") {|x,i| [i+1, ", ", x]}}."
+    puts "The line is currently: #{katz_deli_with_num.join(", ")}."
   end
 end
 
-
+#{katz_deli.join(", ") {|x,i| [i+1, ", ", x]}}."
 
 # a.each_index {|x| print x, " -- " }
 
