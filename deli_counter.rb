@@ -3,11 +3,12 @@ number_in_line= ("#{katz_deli.length} + 1")
 
 
 def line(katz_deli)
-  katz_deli_with_num = katz_deli.each_with_index.map { |x,i| "#{i+1}. #{x}"}
+  # katz_deli_with_num = 
   if katz_deli.length == 0
     puts "The line is currently empty."
   else 
-    puts "The line is currently: #{katz_deli_with_num.join(", ")}."
+    puts "The line is currently: katz_deli.each_with_index.map { |x,i| "#{i+1}. #{x}"}
+    # {katz_deli_with_num.join(", ")}."
   end
 end
 
