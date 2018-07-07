@@ -5,17 +5,12 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else 
-    puts "The line is currently: #{katz_deli.each_with_index.map { |x,i| [i+1. x]}}."
+    puts "The line is currently: #{katz_deli.each_with_index.map { |x,i| [i+1".", x]}}."
   end
 end
 
 # [index + 1]
 # katz_deli.map do (incrementing number + |person|)
-
-
-# primary_colors.each do |color|
-# puts "Primary Color #{color} is #{color.length} letters long."
-# end
 
 
 def take_a_number(katz_deli, name = "Ada")
