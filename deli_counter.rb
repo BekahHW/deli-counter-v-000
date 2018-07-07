@@ -9,6 +9,8 @@ def line(katz_deli)
   end
 end
 
+# katz_deli.map do (incrementing number + |person|)
+
 
 # primary_colors.each do |color|
 # puts "Primary Color #{color} is #{color.length} letters long."
