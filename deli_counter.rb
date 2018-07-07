@@ -1,4 +1,5 @@
 katz_deli = []
+number_in_line= ("#{katz_deli.length} + 1")
 
 def line(katz_deli)
   if katz_deli.length == 0
@@ -15,7 +16,7 @@ end
 
 
 def take_a_number(katz_deli, name = "Ada")
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+  puts "Welcome, #{name}. You are number #{number_in_line} in line."
 end
 
 def now_serving(katz_deli)
