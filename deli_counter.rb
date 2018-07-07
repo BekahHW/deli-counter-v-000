@@ -9,7 +9,7 @@ def line(katz_deli)
   end
 end
 
-a.each_index {|x| print x, " -- " }
+# a.each_index {|x| print x, " -- " }
 
 # [index + 1]
 # katz_deli.map do (incrementing number + |person|)
