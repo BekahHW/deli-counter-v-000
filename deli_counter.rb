@@ -9,7 +9,7 @@ def line(katz_deli)
   end
 end
 
-#{katz_deli.each_with_index.map { |x,i| [i+1, ", ", x]}}."
+
 
 # a.each_index {|x| print x, " -- " }
 
