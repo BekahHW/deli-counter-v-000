@@ -9,6 +9,7 @@ def line(katz_deli)
   end
 end
 
+[index + 1]
 # katz_deli.map do (incrementing number + |person|)
 
 
