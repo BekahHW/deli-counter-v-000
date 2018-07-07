@@ -11,10 +11,10 @@ def line(katz_deli)
   end
 end
 
-puts "i is: #{i}, v is #{v}" 
-}
+# puts "i is: #{i}, v is #{v}" 
+# }
 
-i is: 0, v is a
+# i is: 0, v is a
 #{katz_deli.join(", ") {|x,i| [i+1, ", ", x]}}."
 
 # a.each_index {|x| print x, " -- " }
