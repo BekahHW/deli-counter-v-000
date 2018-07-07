@@ -14,14 +14,6 @@ end
 
 # a.each_index {|x| print x, " -- " }
 
-# [index + 1]
-# katz_deli.map do (incrementing number + |person|)
-
-
-# primary_colors.each do |color|
-# puts "Primary Color #{color} is #{color.length} letters long."
-# end
-
 
 def take_a_number(katz_deli, name = "Ada")
   katz_deli.push(name)
